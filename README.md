@@ -1,51 +1,41 @@
 # 🌐 Desenvolvimento Web
 
-Este repositório é destinado aos meus estudos e atividades de **Desenvolvimento Web**.
+Este repositório foi criado para organizar meus estudos, atividades e projetos relacionados ao **Desenvolvimento Web**.
 
-Sou estudante de **Bacharelado em Sistemas de Informação (BSI)** e estou utilizando este espaço para praticar, organizar meus exercícios e acompanhar minha evolução na programação.
+Sou estudante de **Bacharelado em Sistemas de Informação (BSI)** e estou utilizando este espaço para colocar em prática o que estou aprendendo durante minha jornada na programação.
 
-## 📚 O que estou estudando
+## 📚 Tecnologias
 
-Atualmente, estou aprendendo:
+Atualmente, estou estudando:
 
-* **HTML** — Estrutura das páginas web
-* **CSS** — Estilização e organização das páginas
-* **JavaScript** — Lógica e interatividade
+- 🟠 **HTML**
+- 🔵 **CSS**
+- 🟡 **JavaScript**
 
-## 📁 Organização
-
-A pasta contém atividades, exercícios e pequenos projetos desenvolvidos durante meu aprendizado.
-
-```text
-desenvolvimento-web/
-│
-├── HTML/
-│   ├── atividades/
-│   └── projetos/
-│
-├── CSS/
-│   ├── atividades/
-│   └── projetos/
-│
-├── JavaScript/
-│   ├── atividades/
-│   └── projetos/
-│
-└── README.md
-```
+Ao longo dos meus estudos, pretendo aprender novos conceitos e utilizar essas tecnologias em diferentes atividades e projetos.
 
 ## 🎯 Objetivo
 
-Meu objetivo com este repositório é **praticar programação, aprender os fundamentos do desenvolvimento web e registrar minha evolução ao longo da faculdade**.
+O principal objetivo deste repositório é **registrar minha evolução no Desenvolvimento Web**.
 
-Pretendo adicionar novos exercícios e projetos conforme for aprendendo novos conteúdos.
+Aqui vou guardar exercícios, atividades, testes e projetos desenvolvidos durante meus estudos, desde os primeiros conceitos até projetos mais completos.
 
-## 🚀 Em aprendizado
+## 📈 Minha evolução
 
-> Este repositório está em constante desenvolvimento, assim como meu aprendizado.
+Este repositório representa meu processo de aprendizado.
 
-Estou começando minha jornada no desenvolvimento web e utilizando cada atividade como uma oportunidade para aprender e melhorar.
+No começo, os projetos podem ser simples, mas conforme eu adquirir mais conhecimento, pretendo desenvolver projetos cada vez mais completos e aplicar novos conceitos de programação.
+
+## 🚀 Próximos passos
+
+Continuar estudando e praticando:
+
+- Estrutura de páginas com HTML
+- Estilização com CSS
+- Lógica de programação com JavaScript
+- Interatividade em páginas web
+- Desenvolvimento de projetos próprios
 
 ---
 
-**Estudante de BSI | Aprendendo Desenvolvimento Web** 💻
+💻 **Estudante de BSI | Em constante aprendizado**
