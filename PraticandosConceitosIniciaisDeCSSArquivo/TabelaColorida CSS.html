@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "Author" content = "Lucas kitei kakinoana">
+    <meta name = "description" content="Página para praticar colorir tabelas em CSS">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabela grande com colspan e rowspan colorida com CSS</title>
+</head>
+<body style="background-color: lightblue;">
+    <header>
+        <h1>Praticando 2 - Tabela grande com colspan e rowspan colorida com CSS</h1>
+    </header>
+    <hr>
+    <table>
+        <caption>Tabela grande com colspan e rowspan</caption>
+        <tbody>
+        <tr class = "verde">
+            <td colspan="2">Colspan</td>
+            <td>-</td>
+            <td rowspan="3">Rowspan</td>
+        </tr>
+
+        <tr class = "vermelho">
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+
+        <tr class = "azul">
+            <td>-</td>
+            <td colspan ="2">Colspan</td>
+        </tr>
+
+        <tr class = "amarelo">
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table class="legenda">
+        <caption>Legenda</caption>
+        <tr>
+            <th scope="row">Linha 1</th>
+            <td class="verde">--------</td> 
+            <td>green</td>
+        </tr>
+        <tr>
+            <th scope="row">Linha 2</th>
+            <td class="vermelho">--------</td>
+            <td>red</td>
+        </tr>
+        <tr>
+            <th scope="row">Linha 3</th>
+            <td class="azul">--------</td>
+            <td>blue</td>
+        </tr>
+        <tr>
+            <th scope="row">Linha 4</th>
+            <td class="amarelo">--------</td>
+            <td>yellow</td>
+        </tr>
+    </table>
+</body>
+</html>

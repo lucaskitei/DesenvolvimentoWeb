@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "Author" content = "Lucas kitei kakinoana">
+    <meta name = "description" content="Página para praticar seções,containers e bordas com CSS">
+    <title>Praticando da Aula 5 sobre conceitos iniciais de CSS (classes)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Praticando 3 - Seções, Containers e Borda com CSS</h1>
+        <p>Este é um exemplo de cabeçalho feito com &lt;header&gt;.</p>
+    </header>
+
+    <section>
+        <h2>Seção 1</h2>
+        <p>O primeiro <span class="azul3">bug</span> de computador foi, na verdade, uma mariposa <span class="verde3">real</span> presa em um relé <span class="vermelho3">eletromecânico</span>.</p>
+        
+        <div class="box">
+            <p>Caixa feita com DIV dentro da seção. O primeiro disco rígido do mundo (IBM 350) foi criado em 1956 e armazenava apenas 5 MB.</p>
+        </div>
+        <div class = "boxAmarelo">
+            <p>Curiosidade: um processador pode facilmente atingir 90&deg;C e processar cálculos como 3 &times; 4 em frações de nanossegundo.</p>
+            <p>Curiosidade: um processador pode facilmente atingir 90&deg;C e processar cálculos como 3 &times; 4 em frações de nanossegundo.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Seção 2</h2>
+        <p>A linguagem Java, <span class="verde3">muito popular</span> no mercado, quase se chamou Oak. A Oracle detém o <span class="azul3">copyright</span> e direitos de marca, com seu logo <span class="vermelho3">vermelho</span>.</p>
+
+        <div class = "boxAmarelo">
+        <p>Todo rodapé de site sério tem um símbolo de copyright (&copy;) e, às vezes, até de marca registrada (&reg;) ou marca comercial (&trade;). Setas também são comuns em menus: &larr; voltar avançar &rarr;.</p>
+        <p>E frações? O primeiro HD pesava mais de &frac12; tonelada! Tudo isso são entidades HTML!</p>
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Seção 3 - Por que entidades existem de verdade</h2>
+        <p>Além dos símbolos "bonitinhos", entidades resolvem um problema real na programação: como mostrar um sinal de menor (&lt;) ou maior (&gt;) na tela sem o navegador achar que é o início de uma tag HTML?</p>
+        <p>Se eu quiser que a tag &lt;p&gt; apareça como texto normal (sem virar um parágrafo de verdade), preciso escrever &amp;lt;p&amp;gt; no código-fonte.</p>
+
+        <div class = "box">
+        <p>O mesmo vale para o "E comercial" (&amp;): quando eu quero mostrá-lo literalmente, preciso escrever &amp;amp;.</p>
+        <p>Nota: repare que a tag <code>&lt;code&gt;</code> foi usada aqui porque ela indica que aquele trecho é código e o navegador já mostra esse texto com uma fonte diferente por padrão.</p>
+        </div>
+
+        <h3>Elementos Inline vs. Block</h3>
+        <p>Alguns elementos HTML ficam <b>na mesma linha</b> que o conteúdo ao redor (inline); outros sempre começam em <b>uma nova linha (block)</b> </p>
+        <div class = "Inline">
+        &lt;a&gt;
+        &lt;strong&gt;
+        &lt;em&gt;
+        &lt;mark&gt;
+        &lt;code&gt;
+        <span>H<sub>2</sub>O (&lt;sub&gt;)</span>
+        <span>m<sup>2</sup> (&lt;sup&gt;)</span>
+        <br>
+        <p>Repare: todos os exemplos acima ficam lado a lado, na mesma linha.</p>
+        </div>
+        <div class = "block">
+        <h4>Block</h4>
+        <div>&lt;div&gt; um container genérico.</div>
+        <div>&lt;p&gt; um parágrafo.</div>
+        <div>&lt;h1&gt; a &lt;h6&gt; títulos.</div>
+        <div><blockquote>&lt;blockquote&gt; uma citação.</div></blockquote>
+        <div>&lt;section&gt; uma seção (como esta própria página usa!)</div>
+        <br>
+        <p>Repare: cada exemplo acima começa em uma linha própria, mesmo sendo um texto curto.</p>
+        </div>
+
+    </section>
+
+    <footer>
+        &copy; 2026 IFSP Votuporanga - Desenvolvimento Web 1 - Lucas kitei kakinoana
+    </footer>
+
+</body>
+</html>

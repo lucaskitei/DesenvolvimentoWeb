@@ -1,0 +1,153 @@
+/*Essa parte é do index*/
+.primeiroSegundo{
+    border: 3px solid red;
+    background-color: lightblue;
+}
+.quintoSexto{
+    border: 3px solid green;
+    background-color: lightgoldenrodyellow;
+}
+
+.nonoDecimo{
+    border: 3px solid blue;
+    background-color: lightpink;
+}
+
+.destaque1{
+    color: blue;
+}
+
+.destaque2{
+    color: goldenrod;
+}
+
+.destaque3{
+    color: purple;
+}
+/*Essa parte é da tabelaColorida*/
+.table, td, th {
+    border: 1px solid red;
+    border-spacing: 1px;
+        }
+td {
+    padding: 30px 60px;
+    text-align: center;
+}
+th{
+    padding: 30px 60px;
+    text-align: center; 
+}
+table {
+    margin-bottom: 30px;
+    border-collapse: separate;
+}
+
+.verde{
+    background-color: green;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.legenda {
+    margin-bottom: 0px; 
+}
+
+.legenda td, .legenda th {
+    padding: 5px 15px;
+    background-color: white; 
+}
+
+.legenda td.verde{
+    background-color: green;
+}
+
+.legenda td.vermelho {
+    background-color: red;
+}
+
+.legenda td.azul {
+    background-color: blue;
+}
+
+.legenda td.amarelo {
+    background-color: yellow;
+}
+
+/*Essa parte é do Praticando 3*/        
+        body { font-family: sans-serif; margin: 20px; }
+        footer { font-weight: bold; text-align: center; background-color: lightgray; }
+        header {font-weight: bold; text-align: center; background-color: lightblue;}
+        section {background-color:lightcyan; margin: 8px}
+        .box { border: 2px solid; border-color: red; background-color: yellow; }
+        .boxAmarelo {border:2px solid; border-color:red; background-color:lightblue;}
+        .azul3 { color: blue; font-weight: bold; }
+        .verde3 { color: green; font-weight: bold; }
+        .vermelho3 { color: red; font-weight: bold; }
+        code { background-color: #ddd; padding: 2px 4px; border-radius: 3px; font-family: monospace; }
+        .Inline{border:2px solid blue; background-color: lightskyblue; margin-top: 8px;}
+        .block {border:2px solid purple; background-color: lightpink;}
+
+/*Essa parte é do Praticando 4*/ 
+body4 {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .caixa-cientista {
+            border-width: 6px;
+            padding: 15px;
+            margin-bottom: 25px;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .caixa-cientista img {
+            max-width: 300px;
+            display: block;
+            margin: 10px 0;
+            border: 1px solid #ccc; 
+        }
+
+        .legenda4 {
+            font-weight: bold;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .newton {
+            border-style: dotted;
+            border-color: #003366;
+            background-color: #cce0ff;
+        }
+
+        .einstein {
+            border-style: dashed;
+            border-color: #663300;
+            background-color: #faebd7;
+        }
+
+        .schrodinger {
+            border-style: dotted;
+            border-color: #006600;
+            background-color: #d9f2d9;
+        }
+
+        .caixa-cientista:hover {
+            background-color: #ffccff; 
+            outline: 6px solid #ff00ff; 
+            outline-offset: 4px; 
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
