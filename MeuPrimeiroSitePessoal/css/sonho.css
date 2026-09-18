@@ -1,0 +1,22 @@
+.cartao-sonho {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border-top: 4px solid #e74c3c;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.06);
+}
+
+.cartao-sonho img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-top: 6px;
+    font-style: italic;
+}

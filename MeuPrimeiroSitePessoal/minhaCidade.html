@@ -4,17 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>São José do Rio Preto - Minha Cidade</title>
 
     <meta name="author" content="Lucas Kitei">
-    <meta name="description"
-        content="Página sobre a história, pontos turísticos e curiosidades da cidade de São José do Rio Preto.">
+    <meta name="description" content="Página sobre a história, pontos turísticos e curiosidades da cidade de São José do Rio Preto.">
+
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/cidade.css">
 </head>
 
-<body>
+<body id="topo">
 
-    <nav>
+    <header>
+        <h1>São José do Rio Preto</h1>
+        <p>Conheça um pouco mais sobre o coração do interior paulista!</p>
+    </header>
+
+    <nav class="menu-principal">
         <ul>
             <li><a href="index.html">Página Inicial</a></li>
             <li><a href="minhaCidade.html">Minha cidade</a></li>
@@ -23,11 +29,6 @@
             <li><a href="filmes.html">Meus Filmes</a></li>
         </ul>
     </nav>
-
-    <header>
-        <h1>São José do Rio Preto</h1>
-        <p>Conheça um pouco mais sobre o coração do interior paulista!</p>
-    </header>
 
     <main>
 
@@ -42,50 +43,36 @@
             </p>
         </section>
 
-        <section>
+        <section class="galeria-cidade">
             <h2>Pontos Turísticos</h2>
 
-            <p>
-                A cidade se destaca por suas áreas verdes, lazer e arquitetura acolhedora:
-            </p>
+            <p>A cidade se destaca por suas áreas verdes, lazer e arquitetura acolhedora:</p>
 
             <figure>
-                <img src="imagens/imagemRepresaMunicipal.jpg"
-                    alt="Represa Municipal de São José do Rio Preto"
-                    width="600">
-
-                <figcaption>
-                    Fig. 1: Represa Municipal, o principal cartão-postal e ponto de encontro da cidade.
-                </figcaption>
+                <img src="imagens/imagemRepresaMunicipal.jpg" alt="Represa Municipal de São José do Rio Preto" width="600">
+                <figcaption>Fig. 1: Represa Municipal, o principal cartão-postal e ponto de encontro da cidade.</figcaption>
             </figure>
 
             <figure>
-                <img src="imagens/imagemParqueDaRepresa.jpg"
-                    alt="Vista panorâmica do Parque da Represa em São José do Rio Preto"
-                    width="600">
-
-                <figcaption>
-                    Fig. 2: Parque da Represa e áreas de convivência urbana.
-                </figcaption>
+                <img src="imagens/imagemParqueDaRepresa.jpg" alt="Vista panorâmica do Parque da Represa em São José do Rio Preto" width="600">
+                <figcaption>Fig. 2: Parque da Represa e áreas de convivência urbana.</figcaption>
             </figure>
         </section>
 
         <section>
             <h2>Curiosidades</h2>
 
-            <ul>
+            <ul class="curiosidades-lista">
                 <li>
                     <strong>As Capivaras:</strong>
                     As capivaras que habitam as margens da Represa Municipal são um verdadeiro
                     símbolo da cidade e muito queridas pelos moradores.
                 </li>
-
                 <li>
                     <strong>Polo em Saúde e Educação:</strong>
                     Rio Preto é reconhecida nacionalmente pela excelência de seus hospitais
                     e centros universitários.
                 </li>
-
                 <li>
                     <strong>Clima Típico:</strong>
                     Conhecida pelo calor intenso durante grande parte do ano,
@@ -94,12 +81,10 @@
             </ul>
         </section>
 
-        <section>
+        <section class="mapa-container">
             <h2>Localização no Mapa</h2>
 
-            <p>
-                Confira a localização de São José do Rio Preto no mapa interativo abaixo:
-            </p>
+            <p>Confira a localização de São José do Rio Preto no mapa interativo abaixo:</p>
 
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119420.21634840884!2d-49.4447333934335!3d-20.814238515099307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdad5f4039860b%3A0xea848c7e47190eb8!2zU8OjbyBKb3PDqSBkbyBSaW8gUHJldG8sIFNQ!5e0!3m2!1spt-BR!2sbr!4v1710000000000!5m2!1spt-BR!2sbr"
@@ -107,15 +92,19 @@
                 height="450"
                 title="Mapa de São José do Rio Preto">
             </iframe>
-
         </section>
 
     </main>
 
-    <p>
+    <footer>
+        <p><a href="#topo" class="btn-topo">↑ Voltar ao topo</a></p>
+        <p><a href="index.html">← Voltar à Página Inicial</a></p>
+    </footer>
+
         <br>
-        <a href="index.html">← Voltar à Página Inicial</a>
-    </p>
+    <footer>
+        &copy; 2026 IFSP Votuporanga - Desenvolvimento Web 1 - Lucas kitei kakinoana
+    </footer>
 
 </body>
 

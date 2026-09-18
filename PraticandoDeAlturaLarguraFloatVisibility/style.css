@@ -1,0 +1,31 @@
+.secao1{
+  border: solid 0.5vh;
+  font-size: 1vw;
+  width: 65%;
+  margin: 2vh;
+  background-color: white;
+}
+
+.secao2{
+    border: solid 4px;
+    font-size: 14pt;
+    width: 800px;
+    margin: 2vh;
+    background-color: white;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.italico{
+    font-style: italic;
+}
+
+h2{
+    text-align: center;
+}
