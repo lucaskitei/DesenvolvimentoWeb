@@ -1,0 +1,73 @@
+img{
+    opacity: 0.4;
+}
+
+img:hover{
+    opacity: 1.0; 
+    outline: solid blue;
+
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+.secImagens{
+    background-color:lightgrey;
+    border: 3px solid black;
+}
+
+.secOpacity{
+    background-color:lightgrey;
+    border: 3px solid black;
+}
+
+.secBackColor{
+    background-color:lightgrey;
+    border: 3px solid black;
+}
+
+.op1{
+    background-color: green;
+    opacity: 1.0;
+}
+
+.op08{
+    background-color: green;
+    opacity: 0.8;
+}
+
+.op06{
+    background-color: green;
+    opacity: 0.6;
+}
+
+.op04{
+    background-color: green;
+    opacity: 0.4;
+}
+
+.op02{
+    background-color: green;
+    opacity: 0.2;
+}
+
+.rgba08{
+    background-color: rgba(0, 128, 0, 0.8)
+}
+
+.rgba06{
+    background-color: rgba(0, 128, 0, 0.6)
+}
+
+.rgba04{
+    background-color: rgba(0, 128, 0, 0.4)
+}
+
+.rgba02{
+    background-color: rgba(0, 128, 0, 0.2)
+}
+
+section{
+     margin-bottom: 20px;
+}

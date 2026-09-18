@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando 5 - Opacidades</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+
+<body>
+    <!--
+        PRATICANDO 5 - Opacidades
+        ========================================================
+
+        Crie 3 seções diferentes:
+
+        1. Efeito de foco transparente (imagens)
+           As 3 imagens devem começar com opacidade reduzida e ficar
+           com opacidade total ao passar o mouse (hover). Ao ficar em
+           foco, destaque a imagem com um outline.
+
+        2. Opacidade com a propriedade "opacity"
+           Cada div deve usar o valor de opacidade indicado no seu
+           próprio título (0.8, 0.6, 0.4, 0.2). Observe o que acontece
+           com o texto dentro de cada div.
+
+        3. Opacidade com "background-color" em rgba
+           Repita o mesmo efeito visual do item 2, mas agora usando
+           rgba() no background-color em vez de opacity. Compare o
+           resultado com o item anterior — o que muda no texto?
+
+           Resposta da questão 3- O texto, ao utilizar opacity, também se torna opaco conforme o valor do opacity. Já ao usar background
+           color, a opacidade do texto se mantém a mesma (completa, 1.0) em todos os casos, uma vez que ao utilizar essa propriedade, 
+           apenas o plano de  fundo é alterado.
+    -->
+    <h1>Praticando 5 - Opacidades</h1>
+
+    <section class = "secImagens">
+    <h2>Exemplo de uso de opacidade para fazer um efeito de foco transparente</h2>
+    <img src= "imagens/img_forest.jpg" width="200"
+            alt="Foto de uma foresta com uma ponte no destaque central da imagem.">
+    <img src= "imagens/img_mountains.jpg" width="200"
+            alt="Foto de uma paisagem que contém montanhas com pico de neve e um lago ao seu lado, no destaque central da imagem.">
+    <img src= "imagens/img_5terre.jpg" width="200"
+            alt="Foto de uma cidade em cima de uma montanha, com o mar embaixo dela.">
+    
+    </section>
+
+    <section class="secOpacity">
+        <h2>Exemplo de uso de opacidade para tornar as caixas transparentes usando a propriedade opacity</h2>
+
+        <div class="op1">
+            <p>Opacidade 1.0 (valor padrão, nenhuma opacidade)</p>
+        </div>
+        <div class="op08">
+            <p>Opacidade 0.8</p>
+        </div>
+        <div class="op06">
+            <p>Opacidade 0.6</p>
+        </div>
+        <div class="op04">
+            <p>Opacidade 0.4</p>
+        </div>
+        <div class="op02">
+            <p>Opacidade 0.2</p>
+        </div>
+    </section>
+
+    <section class="secBackColor">
+        <h2>Exemplo de uso de opacidade para tornar as caixas transparentes usando a propriedade background-color com valor em
+        rgba</h2>
+        <div class="rgba08">
+            <p>RGBA 0.8</p>
+        </div>
+        <div class="rgba06">
+            <p>RGBA 0.6</p>
+        </div>
+        <div class="rgba04">
+            <p>RGBA 0.4</p>
+        </div>
+        <div class="rgba02">
+            <p>RGBA 0.2</p>
+        </div>
+
+    </section>
+</body>
+
+<footer>
+    &copy; 2026 IFSP Votuporanga - Desenvolvimento Web 1 - Lucas kitei kakinoana
+</footer>
+
+</html>
