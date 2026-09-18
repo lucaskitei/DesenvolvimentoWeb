@@ -4,7 +4,7 @@
 
 ## 🔗 Acesse o site
 
-👉 https://lucaskitei.github.io/MeuPrimeiroSite/
+👉  https://lucaskitei.github.io/DesenvolvimentoWeb/MeuPrimeiroSitePessoal
 
 ## 👨‍💻 Sobre o projeto
 
