@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="css/geral.css">
     <link rel="stylesheet" href="css/cidade.css">
+    <link rel="stylesheet" href="css/responsivo.css">
 </head>
 
 <body id="topo">
@@ -23,10 +24,11 @@
     <nav class="menu-principal">
         <ul>
             <li><a href="index.html">Página Inicial</a></li>
-            <li><a href="minhaCidade.html">Minha cidade</a></li>
+            <li><a href="minhaCidade.html" class="ativo">Minha cidade</a></li>
             <li><a href="meuSonho.html">Meu sonho</a></li>
             <li><a href="inspiracao.html">Minha Inspiração</a></li>
             <li><a href="filmes.html">Meus Filmes</a></li>
+            <li><a href="infoproduto.html">Curso Web</a></li>
         </ul>
     </nav>
 
@@ -48,15 +50,20 @@
 
             <p>A cidade se destaca por suas áreas verdes, lazer e arquitetura acolhedora:</p>
 
-            <figure>
+            <div class="colunas">
+                <div class="coluna">
+                <figure>
                 <img src="imagens/imagemRepresaMunicipal.jpg" alt="Represa Municipal de São José do Rio Preto" width="600">
                 <figcaption>Fig. 1: Represa Municipal, o principal cartão-postal e ponto de encontro da cidade.</figcaption>
             </figure>
-
-            <figure>
+                </div>
+                <div class="coluna">
+                <figure>
                 <img src="imagens/imagemParqueDaRepresa.jpg" alt="Vista panorâmica do Parque da Represa em São José do Rio Preto" width="600">
                 <figcaption>Fig. 2: Parque da Represa e áreas de convivência urbana.</figcaption>
             </figure>
+                </div>
+            </div>
         </section>
 
         <section>
